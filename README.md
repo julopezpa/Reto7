@@ -31,6 +31,7 @@
             n-=2
         if z!=0:
             n-=1
+![image](https://user-images.githubusercontent.com/124606636/228108174-3c57ea5e-7b1d-4017-961d-0b33d7ebb518.png)
 
             
 # En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18:9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
@@ -43,8 +44,6 @@
         B*=1.03# esto ya que se le esta sumando deuna el 2% extra a la pobracion que se tenia anteriormente
         Año+=1
     print("para el año "+ str(Año)+" la pobracion de B("+str(B)+") sera mayor que la pobracion de A("+str(A)+")")
-![image](https://user-images.githubusercontent.com/124606636/228108098-29449dd7-1f7e-42b9-a6d1-73a25ab2cd94.png)
-
     
 # Imprimir el factorial de un número natural n dado.
 
@@ -55,6 +54,7 @@
         n*=x
 
     print (n)
+    
 # Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
 
     n=int(input("ingrese un numero del 1 al 100"))
@@ -74,6 +74,7 @@
         if n%x==0:
             print(str(x))
         x+=1
+        
 # Implementar el algoritmo que muestre los números primos del 1 al 100. nota: use funciones
 
     def numeros_primos(n : int,):
@@ -93,6 +94,7 @@
         while n < Lim: 
             a = numeros_primos(n) 
             n += 1 
+            
 # MEME RANDOM
 ![image](https://user-images.githubusercontent.com/124606636/228107973-24c2e807-c4af-4b93-ab2c-b2959ce096a7.png)
 
